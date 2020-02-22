@@ -1,76 +1,13 @@
 import React from 'react';
-
 import './homepage.styles.scss';
+
+import DirectoryMenu from '../../components/directory-menu';
 
 
 const HomePage = () => (
   <div className='homepage'>
-    <div className='directory-menu'>
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          PROCESSORS
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          GRAPHIC CARDS
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          RAM
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          SSD
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          COOLING
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          CASES
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-      <div className='menu-item'>
-        <div className='content'>
-        <h1 className='title'>
-          EXTERNAL COMPONENTS
-        </h1>
-        <span className='subtitle'>SHOP NOW</span>
-        </div>
-      </div>
-
-    </div>
-  </div>
+    <DirectoryMenu />
+  </div >
 );
 
 export default HomePage;
